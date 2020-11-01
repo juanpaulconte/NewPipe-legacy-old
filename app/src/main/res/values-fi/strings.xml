@@ -103,7 +103,7 @@
     <string name="general_error">Virhe</string>
     <string name="network_error">Verkkovirhe</string>
     <string name="could_not_load_thumbnails">Ei pystytty lataamaan kaikkia esikatselukuvia</string>
-    <string name="youtube_signature_decryption_error">Ei pystytty purkamaan salausta videon URL allekirjoitukselle</string>
+    <string name="youtube_signature_deobfuscation_error">Ei pystytty purkamaan salausta videon URL allekirjoitukselle</string>
     <string name="parsing_error">Ei pystytty jäsentämään websivua</string>
     <string name="light_parsing_error">Ei pystytty jäsentämään websivua kokonaan</string>
     <string name="content_not_available">Sisältö ei ole saatavilla</string>
