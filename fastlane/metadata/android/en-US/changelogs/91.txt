@@ -1,0 +1,7 @@
+Improved:
+• Layout strings (NewPipe-legacy pull request #31)
+
+Fixed:
+• Fix extraction of YouTube's decryption function.
+  • Updated to NewPipeExtractor v0.20.2
+  • Applied the pull request: Polish strings (NewPipe pull request #4655)
