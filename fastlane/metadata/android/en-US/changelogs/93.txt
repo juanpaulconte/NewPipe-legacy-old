@@ -1,0 +1,3 @@
+Fixed:
+• Fix extraction of YouTube's decryption function.
+  • Updated to NewPipeExtractor v0.21.13
