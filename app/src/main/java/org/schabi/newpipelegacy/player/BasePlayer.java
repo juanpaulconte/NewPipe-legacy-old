@@ -157,7 +157,7 @@ public abstract class BasePlayer implements
     //////////////////////////////////////////////////////////////////////////*/
 
     protected static final int PLAY_PREV_ACTIVATION_LIMIT_MILLIS = 5000; // 5 seconds
-    protected static final int PROGRESS_LOOP_INTERVAL_MILLIS = 500;
+    protected static final int PROGRESS_LOOP_INTERVAL_MILLIS = 1000;
 
     protected SimpleExoPlayer simpleExoPlayer;
     protected AudioReactor audioReactor;
