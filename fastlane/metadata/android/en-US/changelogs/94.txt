@@ -1,0 +1,4 @@
+Fixed:
+• Changed player progress bar update from 500 ms to 1s - Issue #7071 from TeamNewPipe/NewPipe
+• Fix extraction of YouTube's decryption function.
+  • Updated to NewPipeExtractor v0.22.0
