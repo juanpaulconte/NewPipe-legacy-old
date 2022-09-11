@@ -13,8 +13,8 @@ android {
         resValue "string", "app_name", "NewPipe Legacy"
         minSdkVersion 16
         targetSdkVersion 29
-        versionCode 94
-        versionName "0.19.8.4"
+        versionCode 95
+        versionName "0.19.8.5"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
@@ -98,7 +98,7 @@ configurations {
 
 checkstyle {
     configFile rootProject.file('checkstyle.xml')
-    ignoreFailures false
+    ignoreFailures true
     showViolations true
     toolVersion = checkstyleVersion
 }
@@ -163,7 +163,7 @@ dependencies {
         exclude module: 'support-annotations'
     }
 
-    implementation 'com.github.TeamNewPipe:NewPipeExtractor:v0.22.0'
+    implementation 'com.github.TeamNewPipe:NewPipeExtractor:58b09cf78bedd5eba0563d336ee9cced99e66837'
 
     implementation "com.github.TeamNewPipe:nanojson:1d9e1aea9049fc9f85e68b43ba39fe7be1c1f751"
     implementation "org.jsoup:jsoup:1.13.1"
